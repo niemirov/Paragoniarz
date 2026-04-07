@@ -1,11 +1,12 @@
-const CACHE_NAME = 'finanse-pwa-v2';
+const CACHE_NAME = 'finanse-pwa-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
   'https://unpkg.com/react@18/umd/react.production.min.js',
   'https://unpkg.com/react-dom@18/umd/react-dom.production.min.js',
-  'https://unpkg.com/recharts@2.12.7/umd/Recharts.js',
+  'https://unpkg.com/prop-types@15.8.1/prop-types.min.js',
+  'https://unpkg.com/recharts@2.5.0/umd/Recharts.js',
 ];
 
 // Install: cache core assets
